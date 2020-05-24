@@ -1,0 +1,2 @@
+rootProject.name='TrainerHelper'
+include ':app'

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPlayerActivity"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/app_bar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:paddingTop="10dp"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/groupName"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Название группы"
+                    android:textSize="25sp"
+                    android:layout_marginTop="40dp"
+                    android:maxLength="12"
+                    />
+                <EditText
+                    android:id="@+id/groupTime"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Время"
+                    android:textSize="25sp"
+                    android:layout_marginTop="10dp"
+                    />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    >
+                </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
