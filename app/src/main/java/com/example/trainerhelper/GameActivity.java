@@ -781,7 +781,6 @@ public class GameActivity extends AppCompatActivity {
                 }else if(currentServe == 1){
                     ////////////////////////////////////СТАТИСТИКА
                     fpFirstServeTotal++;
-
                     //////////////////////////////////////////////
                     currentAction = "Вторая подача";
                     setCurrentActionView();
@@ -816,14 +815,12 @@ public class GameActivity extends AppCompatActivity {
                 ////////////////////////////////////СТАТИСТИКА
                 totalPoints++;
                 fpWinners++;
+                fpTotalPointsWon++;
                 if(currentServe == 1 && currentServePlayer.equals(firstPlayerName)){
-                    fpTotalPointsWon++;
                     fpFirstServePointsCount++;
                 } else if(currentServe == 2 && currentServePlayer.equals(firstPlayerName)){
-                    fpTotalPointsWon++;
                     fpSecondServePointsCount++;
                 }
-
                 //////////////////////////////////////////////
                 fpWinBall();
                 returnToServe();
@@ -838,11 +835,10 @@ public class GameActivity extends AppCompatActivity {
                 ////////////////////////////////////СТАТИСТИКА
                 totalPoints++;
                 fpUnforcedError++;
+                spTotalPointsWon++;
                 if(currentServe == 1 && currentServePlayer.equals(secondPlayerName)){
-                    spTotalPointsWon++;
                     spFirstServePointsCount++;
                 } else if(currentServe == 2 && currentServePlayer.equals(secondPlayerName)){
-                    spTotalPointsWon++;
                     spSecondServePointsCount++;
                 }
 
@@ -936,14 +932,12 @@ public class GameActivity extends AppCompatActivity {
                 ////////////////////////////////////СТАТИСТИКА
                 totalPoints++;
                 spWinners++;
+                spTotalPointsWon++;
                 if(currentServe == 1 && currentServePlayer.equals(secondPlayerName)){
-                    spTotalPointsWon++;
                     spFirstServePointsCount++;
                 } else if(currentServe == 2 && currentServePlayer.equals(secondPlayerName)){
-                    spTotalPointsWon++;
                     spSecondServePointsCount++;
                 }
-
                 //////////////////////////////////////////////
                 spWinBall();
                 returnToServe();
@@ -958,11 +952,10 @@ public class GameActivity extends AppCompatActivity {
                 ////////////////////////////////////СТАТИСТИКА
                 totalPoints++;
                 spUnforcedError++;
+                fpTotalPointsWon++;
                 if(currentServe == 1 && currentServePlayer.equals(firstPlayerName)){
-                    fpTotalPointsWon++;
                     fpFirstServePointsCount++;
                 } else if(currentServe == 2 && currentServePlayer.equals(firstPlayerName)){
-                    fpTotalPointsWon++;
                     fpSecondServePointsCount++;
                 }
                 //////////////////////////////////////////////
