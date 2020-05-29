@@ -69,15 +69,6 @@ public class GameActivity extends AppCompatActivity {
         getIntentInfo();
         setViewElements();
         initListeners();
-        //initToolbar(toolbar);
-    }
-
-    private void initToolbar(Toolbar toolbar){
-        toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setTitle("Игра окончена");
     }
 
     private void initViewElements(){
