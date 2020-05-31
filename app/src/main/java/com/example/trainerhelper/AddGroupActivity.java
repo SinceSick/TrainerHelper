@@ -263,15 +263,5 @@ public class AddGroupActivity extends AppCompatActivity implements AddGroupAdapt
         selectDays.get(position).setBackground(getResources().getColor(R.color.colorWhite));
         recyclerView.getAdapter().notifyItemChanged(position);
     }
-
-
-
-
-
-
-
-
-
-
 }
 

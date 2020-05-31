@@ -31,7 +31,7 @@ public class TrainingActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 intent = getIntent();
-                int idInDb = intent.getIntExtra("IdInDb", 0 );
+                //int idInDb = intent.getIntExtra("IdInDb", 0 );
                 Intent intent = new Intent(getApplicationContext(), PlayerListActivity.class);
                 startActivity(intent);
             }

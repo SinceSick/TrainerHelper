@@ -259,7 +259,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_gravity="center"
-                        android:text="Мячь в игре"
+                        android:text="Мяч в игре"
                         android:textSize="25sp"
                         android:textColor="@color/colorWhite"/>
                 </androidx.cardview.widget.CardView>
@@ -321,7 +321,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_gravity="center"
-                        android:text="Мячь в игре"
+                        android:text="Мяч в игре"
                         android:textSize="25sp"
                         android:textColor="@color/colorWhite"/>
                 </androidx.cardview.widget.CardView>
